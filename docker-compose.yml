@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  microservice:
+    image: microservice
+    build:
+      context: ./MicroService
+      dockerfile: Dockerfile
